@@ -1,0 +1,11 @@
+C:\Users\Intel i5\Desktop\UTN\PRACTICAS\SimulacroExamen\bin\Debug\netcoreapp2.1\SimulacroExamen.deps.json
+C:\Users\Intel i5\Desktop\UTN\PRACTICAS\SimulacroExamen\bin\Debug\netcoreapp2.1\SimulacroExamen.runtimeconfig.json
+C:\Users\Intel i5\Desktop\UTN\PRACTICAS\SimulacroExamen\bin\Debug\netcoreapp2.1\SimulacroExamen.runtimeconfig.dev.json
+C:\Users\Intel i5\Desktop\UTN\PRACTICAS\SimulacroExamen\bin\Debug\netcoreapp2.1\SimulacroExamen.dll
+C:\Users\Intel i5\Desktop\UTN\PRACTICAS\SimulacroExamen\bin\Debug\netcoreapp2.1\SimulacroExamen.pdb
+C:\Users\Intel i5\Desktop\UTN\PRACTICAS\SimulacroExamen\obj\Debug\netcoreapp2.1\SimulacroExamen.csprojAssemblyReference.cache
+C:\Users\Intel i5\Desktop\UTN\PRACTICAS\SimulacroExamen\obj\Debug\netcoreapp2.1\SimulacroExamen.csproj.CoreCompileInputs.cache
+C:\Users\Intel i5\Desktop\UTN\PRACTICAS\SimulacroExamen\obj\Debug\netcoreapp2.1\SimulacroExamen.AssemblyInfoInputs.cache
+C:\Users\Intel i5\Desktop\UTN\PRACTICAS\SimulacroExamen\obj\Debug\netcoreapp2.1\SimulacroExamen.AssemblyInfo.cs
+C:\Users\Intel i5\Desktop\UTN\PRACTICAS\SimulacroExamen\obj\Debug\netcoreapp2.1\SimulacroExamen.dll
+C:\Users\Intel i5\Desktop\UTN\PRACTICAS\SimulacroExamen\obj\Debug\netcoreapp2.1\SimulacroExamen.pdb
