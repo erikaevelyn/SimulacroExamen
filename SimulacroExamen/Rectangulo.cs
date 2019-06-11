@@ -11,9 +11,7 @@ namespace SimulacroExamen{
 
     public class Rectangulo : Figura{
 
-        public double area;
 
-        public double perimetro;
 
         public Rectangulo(double baseFigura, double alturaFigura):base(baseFigura, alturaFigura){
             base.nombre = "Rectangulo";
@@ -22,13 +20,13 @@ namespace SimulacroExamen{
         }
 
         public override double calcularArea(){
-            area = base.baseFigura*base.alturaFigura;
-            return area;
+            base.area = base.baseFigura*base.alturaFigura;
+            return base.area;
         }
 
         public override double cacularPerimetro(){
-            perimetro = (base.baseFigura+base.alturaFigura)*2;
-            return perimetro;
+            base.perimetro = (base.baseFigura+base.alturaFigura)*2;
+            return base.perimetro;
         }
 
     }

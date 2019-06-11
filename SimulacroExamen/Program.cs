@@ -9,6 +9,12 @@ namespace SimulacroExamen
 
             Solucion  sol  =  new  Solucion ();
 
+            
+            /*EJERCICIO 3 */
+
+            sol.crearFiguras();
+            sol.mostrarFiguras();
+
             /*EJERCICIO 1 */
             Console.WriteLine("Ingrese la cotizacion actual:");
             double cotizacion = Convert.ToDouble(Console.ReadLine());
@@ -23,10 +29,6 @@ namespace SimulacroExamen
             sol.cargarMatriz();
             Console.WriteLine($"{sol.calcularMayor()}");
 
-            /*EJERCICIO 3 */
-
-            sol.crearFiguras();
-            sol.mostrarFiguras();
 
 
             Console.ReadLine();

@@ -14,12 +14,13 @@ namespace SimulacroExamen{
         public double baseFigura;
         public double alturaFigura;
         public string nombre;
+        public double area;
 
+        public double perimetro;
 
         public Figura(double baseFigura, double alturaFigura){
 
         }
-
         public abstract double calcularArea();
 
         public abstract double cacularPerimetro();

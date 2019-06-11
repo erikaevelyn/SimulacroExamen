@@ -80,21 +80,22 @@ public class Solucion{
 
         Console.WriteLine("Ingrese la cantidad de figuras que va a crear: ");
         cantidadTotal = Convert.ToInt32(Console.ReadLine());
+        figuras = new Figura[cantidadTotal];
         
       do{
         Console.WriteLine("Ingrese 1 si quiere crear un rectangulo y 2 si quiere crear un triangulo: ");
         elegido = Convert.ToInt32(Console.ReadLine());
-        figuras = new Figura[cantidadTotal];
+        
         
         if(elegido==1){
             double baseR;
             double alturaR;
 
             Console.WriteLine("Ingrese la longitud de la base: ");
-            baseR = Convert.ToInt32(Console.ReadLine());
+            baseR = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Ingrese la longitud de la altura: ");
-            alturaR = Convert.ToInt32(Console.ReadLine());
+            alturaR = Convert.ToDouble(Console.ReadLine());
 
             Rectangulo miRectangulo = new Rectangulo(baseR, alturaR);
             figuras[cantidadParcial]=miRectangulo;
@@ -108,16 +109,16 @@ public class Solucion{
             double lado2;
 
             Console.WriteLine("Ingrese la longitud de la base: ");
-            baseT = Convert.ToInt32(Console.ReadLine());
+            baseT = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Ingrese la longitud de la altura: ");
-            alturaT = Convert.ToInt32(Console.ReadLine());
+            alturaT = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Ingrese la longitud de uno de los lados (que no sea la base): ");
-            lado1 = Convert.ToInt32(Console.ReadLine());
+            lado1 = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Ingrese la longitud del ultimo lado que queda: ");
-            lado2 = Convert.ToInt32(Console.ReadLine());
+            lado2 = Convert.ToDouble(Console.ReadLine());
 
             Triangulo miTriangulo = new Triangulo(baseT, alturaT, lado1, lado2);
             figuras[cantidadParcial]=miTriangulo;

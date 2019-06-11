@@ -13,8 +13,6 @@ namespace SimulacroExamen{
 
         public double lado1;
         public double lado2;
-        public double area;
-        public double perimetro;
 
         public Triangulo(double baseFigura, double alturaFigura, double lado1, double lado2):base(baseFigura, alturaFigura){
             base.nombre = "Triangulo";
@@ -25,14 +23,14 @@ namespace SimulacroExamen{
         }
 
         public override double calcularArea(){
-            area = (base.baseFigura*base.alturaFigura)/2;
-            return area;
+            base.area = (base.baseFigura*base.alturaFigura)/2;
+            return base.area;
 
         }
 
         public override double cacularPerimetro(){
-            perimetro = base.baseFigura + this.lado1 + this.lado2;
-            return perimetro;
+            base.perimetro = base.baseFigura + this.lado1 + this.lado2;
+            return base.perimetro;
         }
 
     }
